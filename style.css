@@ -1,0 +1,96 @@
+@font-face {
+  font-family: beach;
+  src: url(font/Duxbury\ Beach.ttf);
+}
+@font-face {
+  font-family: subeach;
+  src: url(font/Good\ Vibes.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0;
+  color: rgb(44, 29, 0);
+  line-height: 1.6;
+  background-color: rgb(252, 247, 239);
+}
+
+#showcase {
+  background-image: url(imgs/showcase.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#showcase h1 {
+  font-size: 100px;
+  font-family: beach;
+}
+
+#showcase p {
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+#showcase .booknow {
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(44, 29, 0);
+  border: rgb(99, 75, 55) 3px solid;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-family: subeach;
+  margin-top: 40px;
+}
+
+#showcase .booknow:hover {
+  background: rgba(243, 208, 181, 0.555);
+}
+
+#section-a {
+  padding: 20px;
+  background-color: rgba(196, 124, 68, 0.63);
+  text-align: center;
+  margin-top: 3px;
+  font-size: 20px;
+}
+#section-b {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#section-c {
+  padding: 10px;
+  background-color: rgba(250, 174, 116, 0.63);
+  text-align: center;
+  margin: 0px;
+}
+#section-b div {
+  padding: 10px;
+}
+#section-b .box1,
+#section-b .box3 {
+  background-color: rgba(128, 60, 9, 0.63);
+  display: flex;
+  box-sizing: border-box;
+  width: 70%;
+}
+#section-b .box2 {
+  background-color: rgba(243, 196, 160, 0.63);
+  margin: 3px;
+  display: flex;
+  box-sizing: border-box;
+  width: 70%;
+}
+
+#section-b p {
+  margin-left: 10px;
+}
